@@ -1,0 +1,12 @@
+/Users/soni/Projects/TemperatureConverterApp/TC.Repository.UnitTests/bin/Debug/net6.0/TC.Repository.UnitTests.deps.json
+/Users/soni/Projects/TemperatureConverterApp/TC.Repository.UnitTests/bin/Debug/net6.0/TC.Repository.UnitTests.dll
+/Users/soni/Projects/TemperatureConverterApp/TC.Repository.UnitTests/bin/Debug/net6.0/TC.Repository.UnitTests.pdb
+/Users/soni/Projects/TemperatureConverterApp/TC.Repository.UnitTests/obj/Debug/net6.0/TC.Repository.UnitTests.csproj.AssemblyReference.cache
+/Users/soni/Projects/TemperatureConverterApp/TC.Repository.UnitTests/obj/Debug/net6.0/TC.Repository.UnitTests.GeneratedMSBuildEditorConfig.editorconfig
+/Users/soni/Projects/TemperatureConverterApp/TC.Repository.UnitTests/obj/Debug/net6.0/TC.Repository.UnitTests.AssemblyInfoInputs.cache
+/Users/soni/Projects/TemperatureConverterApp/TC.Repository.UnitTests/obj/Debug/net6.0/TC.Repository.UnitTests.AssemblyInfo.cs
+/Users/soni/Projects/TemperatureConverterApp/TC.Repository.UnitTests/obj/Debug/net6.0/TC.Repository.UnitTests.csproj.CoreCompileInputs.cache
+/Users/soni/Projects/TemperatureConverterApp/TC.Repository.UnitTests/obj/Debug/net6.0/TC.Repository.UnitTests.dll
+/Users/soni/Projects/TemperatureConverterApp/TC.Repository.UnitTests/obj/Debug/net6.0/refint/TC.Repository.UnitTests.dll
+/Users/soni/Projects/TemperatureConverterApp/TC.Repository.UnitTests/obj/Debug/net6.0/TC.Repository.UnitTests.pdb
+/Users/soni/Projects/TemperatureConverterApp/TC.Repository.UnitTests/obj/Debug/net6.0/ref/TC.Repository.UnitTests.dll

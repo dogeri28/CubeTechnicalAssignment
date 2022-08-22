@@ -1,0 +1,8 @@
+/Users/soni/Projects/TemperatureConverterApp/TC.DbContect/obj/Debug/net6.0/TC.DbContext.csproj.AssemblyReference.cache
+/Users/soni/Projects/TemperatureConverterApp/TC.DbContect/obj/Debug/net6.0/TC.DbContext.GeneratedMSBuildEditorConfig.editorconfig
+/Users/soni/Projects/TemperatureConverterApp/TC.DbContect/obj/Debug/net6.0/TC.DbContext.AssemblyInfoInputs.cache
+/Users/soni/Projects/TemperatureConverterApp/TC.DbContect/obj/Debug/net6.0/TC.DbContext.AssemblyInfo.cs
+/Users/soni/Projects/TemperatureConverterApp/TC.DbContect/obj/Debug/net6.0/TC.DbContext.csproj.CoreCompileInputs.cache
+/Users/soni/Projects/TemperatureConverterApp/TC.DbContect/obj/Debug/net6.0/TC.DbContect.dll
+/Users/soni/Projects/TemperatureConverterApp/TC.DbContect/obj/Debug/net6.0/refint/TC.DbContect.dll
+/Users/soni/Projects/TemperatureConverterApp/TC.DbContect/obj/Debug/net6.0/TC.DbContect.pdb

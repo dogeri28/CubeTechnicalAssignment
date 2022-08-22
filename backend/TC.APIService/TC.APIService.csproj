@@ -1,0 +1,62 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <AssemblyName>TemperatureConverterApp</AssemblyName>
+  </PropertyGroup>
+
+
+  <PropertyGroup Condition=" '$(RunConfiguration)' == 'APIService' " />
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Debug\net6.0\TemperatureConverterApp.xml</DocumentationFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="Microsoft.VisualStudio.Web.CodeGeneration.Design" />
+    <None Remove="Microsoft.EntityFrameworkCore" />
+    <None Remove="Npgsql.EntityFrameworkCore.PostgreSQL" />
+    <None Remove="Swashbuckle.AspNetCore" />
+    <None Remove="Microsoft.AspNetCore.Mvc.NewtonsoftJson" />
+    <None Remove="TC.DTOModels\obj\Debug\net6.0\TC.DTOModels.csproj.AssemblyReference.cache" />
+    <None Remove="TC.DTOModels\obj\TC.DTOModels.csproj.nuget.g.props" />
+    <None Remove="TC.DTOModels\obj\TC.DTOModels.csproj.nuget.g.targets" />
+    <None Remove="TC.DTOModels\obj\project.nuget.cache" />
+    <None Remove="TC.DTOModels\obj\Debug\net6.0\TC.DTOModels.assets.cache" />
+    <None Remove="TC.DTOModels\obj\Debug\net6.0\TC.DTOModels.GeneratedMSBuildEditorConfig.editorconfig" />
+    <None Remove="TC.DTOModels\obj\Debug\net6.0\TC.DTOModels.AssemblyInfoInputs.cache" />
+    <None Remove="TC.DTOModels\obj\Debug\net6.0\TC.DTOModels.csproj.FileListAbsolute.txt" />
+    <None Remove="Extensions\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.5" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.8" />
+    <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="6.0.6" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="6.0.8" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\TC.DatabaseContext\TC.DatabaseContext.csproj">
+      <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
+    </ProjectReference>
+    <ProjectReference Include="..\TC.BusinessLogic\TC.BusinessLogic.csproj">
+      <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
+    </ProjectReference>
+    <ProjectReference Include="..\TC.Repository\TC.Repository.csproj">
+      <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="TC.DTOModels\obj\Debug\net6.0\.NETCoreApp,Version=v6.0.AssemblyAttributes.cs" />
+    <Compile Remove="TC.DTOModels\obj\Debug\net6.0\TC.DTOModels.GlobalUsings.g.cs" />
+    <Compile Remove="TC.DTOModels\obj\Debug\net6.0\TC.DTOModels.AssemblyInfo.cs" />
+    <Compile Remove="TC.DTOModels\TemperatureCovertRequest.cs" />
+    <Compile Remove="TC.DTOModels\TemperatureConvertResponse.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Remove="TC.DTOModels\obj\project.assets.json" />
+    <Content Remove="TC.DTOModels\obj\TC.DTOModels.csproj.nuget.dgspec.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Extensions\" />
+  </ItemGroup>
+</Project>

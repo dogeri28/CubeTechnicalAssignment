@@ -1,0 +1,70 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/soni/Projects/TemperatureConverterApp/TC.Models/TC.DbContext.csproj": {}
+  },
+  "projects": {
+    "/Users/soni/Projects/TemperatureConverterApp/TC.Models/TC.DbContext.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/soni/Projects/TemperatureConverterApp/TC.Models/TC.DbContext.csproj",
+        "projectName": "TC.DbContext",
+        "projectPath": "/Users/soni/Projects/TemperatureConverterApp/TC.Models/TC.DbContext.csproj",
+        "packagesPath": "/Users/soni/.nuget/packages/",
+        "outputPath": "/Users/soni/Projects/TemperatureConverterApp/TC.Models/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/soni/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.8, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.400/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

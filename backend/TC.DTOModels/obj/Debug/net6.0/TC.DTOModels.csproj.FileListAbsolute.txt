@@ -1,0 +1,15 @@
+/Users/soni/Projects/TemperatureConverterApp/TC.DTOModels/bin/Debug/net6.0/TC.DTOModels.deps.json
+/Users/soni/Projects/TemperatureConverterApp/TC.DTOModels/bin/Debug/net6.0/TC.DTOModels.dll
+/Users/soni/Projects/TemperatureConverterApp/TC.DTOModels/bin/Debug/net6.0/TC.DTOModels.pdb
+/Users/soni/Projects/TemperatureConverterApp/TC.DTOModels/bin/Debug/net6.0/TC.Models.dll
+/Users/soni/Projects/TemperatureConverterApp/TC.DTOModels/bin/Debug/net6.0/TC.Models.pdb
+/Users/soni/Projects/TemperatureConverterApp/TC.DTOModels/obj/Debug/net6.0/TC.DTOModels.csproj.AssemblyReference.cache
+/Users/soni/Projects/TemperatureConverterApp/TC.DTOModels/obj/Debug/net6.0/TC.DTOModels.GeneratedMSBuildEditorConfig.editorconfig
+/Users/soni/Projects/TemperatureConverterApp/TC.DTOModels/obj/Debug/net6.0/TC.DTOModels.AssemblyInfoInputs.cache
+/Users/soni/Projects/TemperatureConverterApp/TC.DTOModels/obj/Debug/net6.0/TC.DTOModels.AssemblyInfo.cs
+/Users/soni/Projects/TemperatureConverterApp/TC.DTOModels/obj/Debug/net6.0/TC.DTOModels.csproj.CoreCompileInputs.cache
+/Users/soni/Projects/TemperatureConverterApp/TC.DTOModels/obj/Debug/net6.0/TC.DTOModels.csproj.CopyComplete
+/Users/soni/Projects/TemperatureConverterApp/TC.DTOModels/obj/Debug/net6.0/TC.DTOModels.dll
+/Users/soni/Projects/TemperatureConverterApp/TC.DTOModels/obj/Debug/net6.0/refint/TC.DTOModels.dll
+/Users/soni/Projects/TemperatureConverterApp/TC.DTOModels/obj/Debug/net6.0/TC.DTOModels.pdb
+/Users/soni/Projects/TemperatureConverterApp/TC.DTOModels/obj/Debug/net6.0/ref/TC.DTOModels.dll

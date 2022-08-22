@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "nmZlVDwqRMqY3Nm4+wX8SD7NThAQDUdhKXFGfnnafeM=",
+  "Source": "TemperatureConverterApp",
+  "BasePath": "_content/TemperatureConverterApp",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

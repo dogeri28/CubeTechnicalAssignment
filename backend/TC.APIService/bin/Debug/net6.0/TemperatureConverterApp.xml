@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>TemperatureConverterApp</name>
+    </assembly>
+    <members>
+        <member name="M:TemperatureConverterApp.Controllers.TemperatureController.ConvertTemperature(TC.DTOModels.TemperatureConvertRequest)">
+            <summary>
+            This api endpoint converts temperatures between Celsius, Fahrenheit and Kelvin metrics.
+            </summary>
+            <remarks>
+            The **temperatureTypeFrom** and **temperatureTypeTo** numerical values are mapped as follows
+             * 1 - Celsius
+             * 2 - Fahrenheit 
+             * 3 - Kelvin
+            </remarks>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

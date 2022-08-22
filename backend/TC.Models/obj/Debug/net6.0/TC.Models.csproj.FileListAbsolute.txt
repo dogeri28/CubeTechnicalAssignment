@@ -1,0 +1,12 @@
+/Users/soni/Projects/TemperatureConverterApp/TC.Models/bin/Debug/net6.0/TC.Models.deps.json
+/Users/soni/Projects/TemperatureConverterApp/TC.Models/bin/Debug/net6.0/TC.Models.dll
+/Users/soni/Projects/TemperatureConverterApp/TC.Models/bin/Debug/net6.0/TC.Models.pdb
+/Users/soni/Projects/TemperatureConverterApp/TC.Models/obj/Debug/net6.0/TC.Models.csproj.AssemblyReference.cache
+/Users/soni/Projects/TemperatureConverterApp/TC.Models/obj/Debug/net6.0/TC.Models.GeneratedMSBuildEditorConfig.editorconfig
+/Users/soni/Projects/TemperatureConverterApp/TC.Models/obj/Debug/net6.0/TC.Models.AssemblyInfoInputs.cache
+/Users/soni/Projects/TemperatureConverterApp/TC.Models/obj/Debug/net6.0/TC.Models.AssemblyInfo.cs
+/Users/soni/Projects/TemperatureConverterApp/TC.Models/obj/Debug/net6.0/TC.Models.csproj.CoreCompileInputs.cache
+/Users/soni/Projects/TemperatureConverterApp/TC.Models/obj/Debug/net6.0/TC.Models.dll
+/Users/soni/Projects/TemperatureConverterApp/TC.Models/obj/Debug/net6.0/refint/TC.Models.dll
+/Users/soni/Projects/TemperatureConverterApp/TC.Models/obj/Debug/net6.0/TC.Models.pdb
+/Users/soni/Projects/TemperatureConverterApp/TC.Models/obj/Debug/net6.0/ref/TC.Models.dll

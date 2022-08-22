@@ -1,0 +1,3 @@
+is_global = true
+build_property.RootNamespace = DatabaseInstaller
+build_property.ProjectDir = /Users/soni/Projects/TemperatureConverterApp/DatabaseInstaller/
