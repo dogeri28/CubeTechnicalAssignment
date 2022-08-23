@@ -26,10 +26,12 @@ namespace TemperatureConverterApp.Controllers
         }
 
         /// <summary>
-        /// This api endpoint converts temperatures between Celsius, Fahrenheit and Kelvin metrics.
+        /// This api endpoint converts temperatures between Celsius,
+        /// Fahrenheit and Kelvin metrics.
         /// </summary>
         /// <remarks>
-        /// The **temperatureTypeFrom** and **temperatureTypeTo** numerical values are mapped as follows
+        /// The **temperatureTypeFrom** and **temperatureTypeTo**
+        /// numerical values are mapped as follows
         ///  * 1 - Celsius
         ///  * 2 - Fahrenheit 
         ///  * 3 - Kelvin
@@ -38,9 +40,9 @@ namespace TemperatureConverterApp.Controllers
         /// <returns></returns>
         [HttpPost]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
-        public TemperatureConvertResponse ConvertTemperature([FromBody] TemperatureConvertRequest request)
+        public async Task<TemperatureConvertResponse> ConvertTemperature([FromBody] TemperatureConvertRequest request)
         {
-            return _temperatureConvertService.HandleTemperatureConversion(request);
+            return await _temperatureConvertService.HandleTemperatureConversion(request);
         }
     }
 }

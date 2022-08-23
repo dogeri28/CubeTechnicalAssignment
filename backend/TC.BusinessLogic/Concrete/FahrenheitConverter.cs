@@ -14,7 +14,7 @@ namespace TC.BusinessLogic.Concrete
                 case Models.TemperatureType.Celsius:
                     return ConvertToCelsius(request);
 
-                case Models.TemperatureType.Fahrenheit:
+                case Models.TemperatureType.Kelvin:
                     return ConvertToKelvin(request);
             }
 
@@ -36,7 +36,7 @@ namespace TC.BusinessLogic.Concrete
         private TemperatureConvertResponse ConvertToKelvin(TemperatureConvertRequest request)
         {
             var fahrenheit = request.TemperatureValueFrom ?? -1;
-            var kelvin = 273.5M + ((fahrenheit - 32.0M) * (5.0M / 9.0M));
+            var kelvin = (decimal) (273.5M + ((fahrenheit - 32.0M) * (5.0M / 9.0M)));
 
             return new TemperatureConvertResponse()
             {

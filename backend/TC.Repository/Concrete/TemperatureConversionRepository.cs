@@ -21,12 +21,12 @@ namespace TC.Repository.Concrete
             _dbContext = dbContext ?? throw new ArgumentNullException(nameof(dbContext));
         }
 
-        public TemperatureConversion SaveTemperatureConversion(TemperatureConvertResponse response)
+        public async Task<TemperatureConversion> SaveTemperatureConversion(TemperatureConvertResponse response)
         {
-            return HandleSaveTemperatureConversion(response);
+            return await HandleSaveTemperatureConversion(response);
         }
 
-        private TemperatureConversion HandleSaveTemperatureConversion(TemperatureConvertResponse response)
+        private async Task<TemperatureConversion> HandleSaveTemperatureConversion(TemperatureConvertResponse response)
         {
             var entity = new TemperatureConversion()
             {
@@ -37,7 +37,7 @@ namespace TC.Repository.Concrete
             };
 
             _dbContext.TemperatureConversions.Add(entity);
-            _dbContext.SaveChanges();
+            await _dbContext.SaveChangesAsync(default);
 
             return entity;
         }

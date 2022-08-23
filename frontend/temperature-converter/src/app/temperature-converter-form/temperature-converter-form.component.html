@@ -1,0 +1,43 @@
+
+<form #form="ngForm">
+<br/>
+<div class="container">
+<div class="row">
+    <div class="col-5">
+    <div class="bg-light border mt-6">
+        <p>Conver From <input type="number"  class="form-control" placeholder="" aria-label="from-type"></p>
+        <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
+            <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off" >
+            <label class="btn btn-outline-primary" for="btnradio1">Celsius</label>
+            <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off">
+            <label class="btn btn-outline-primary" for="btnradio2">Fahrenheit</label>
+            <input type="radio" class="btn-check" name="btnradio" id="btnradio3" autocomplete="off">
+            <label class="btn btn-outline-primary" for="btnradio3">Kelvin</label>
+        </div>
+    </div>
+    </div>
+   <div class="col d-flex justify-content-center">
+    <button type="submit" class="btn btn-primary">Convert</button>
+   </div>
+ 
+    <div class="col-5">
+        <div class="bg-light border">
+        <p>Convert To <input type="text" disabled  class="form-control" placeholder="" aria-label="to-type"></p>
+        <div class="btn-group" name="toValue" role="group" aria-label="Basic radio toggle button group">
+            <input type="radio" class="btn-check" name="btnradio-2" value="celsius" id="btnradio-1" autocomplete="off"  ngModel>
+            <label class="btn btn-outline-primary" for="btnradio-1">Celsius</label>
+        
+            <input type="radio" class="btn-check" name="btnradio-2" value="fahrenheit" id="btnradio-2" autocomplete="off" ngModel>
+            <label class="btn btn-outline-primary" for="btnradio-2">Fahrenheit</label>
+        
+            <input type="radio" class="btn-check" name="btnradio-2" value="kelvin" id="btnradio-3" autocomplete="off" ngModel>
+            <label class="btn btn-outline-primary" for="btnradio-3">Kelvin</label>
+        </div>
+        </div>
+    </div>
+</div>
+</div>
+</form>
+
+{{form.value | json}}
+ 

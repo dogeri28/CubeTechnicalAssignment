@@ -36,7 +36,7 @@ namespace TC.BusinessLogic.Concrete
         private TemperatureConvertResponse ConvertToFarenheight(TemperatureConvertRequest request)
         {
             var kelvin = request.TemperatureValueFrom ?? -1;
-            var fahrenheit = 1.8M * (kelvin - 273M) + 32M;
+            var fahrenheit = (decimal) (1.8M * (kelvin - 273M) + 32M);
 
             return new TemperatureConvertResponse()
             {

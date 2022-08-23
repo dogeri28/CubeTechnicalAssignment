@@ -1,14 +1,40 @@
 ﻿<Properties StartupConfiguration="{15764BB0-6C2A-4F30-8CA0-EE5754438F91}|Default">
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.3._220Entity_220Layer.TC.Repository.UnitTests FirstBuild="True" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <Breakpoint file="/Users/soni/Projects/TemperatureConverterApp/backend/TC.Repository.UnitTests/Class1.cs" relfile="TC.Repository.UnitTests/Class1.cs" line="15" column="1" />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.ItemProperties.1._220Presentation_220Layer.TC.APIService PreferredExecutionTarget="/Applications/Safari.app" />
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="TC.BusinessLogic.UnitTests/UnitTest1.cs">
+    <Files>
+      <File FileName="TC.BusinessLogic/Abstract/IConvertCelsius.cs" Line="1" Column="1" />
+      <File FileName="TC.BusinessLogic/Abstract/IConvertFahrenheit.cs" Line="1" Column="1" />
+      <File FileName="TC.BusinessLogic/Abstract/IConvertKelvin.cs" Line="1" Column="1" />
+      <File FileName="TC.BusinessLogic/Abstract/ITemperatureConvertService.cs" Line="8" Column="12" />
+      <File FileName="TC.BusinessLogic/Concrete/CelsiusConverter.cs" Line="1" Column="1" />
+      <File FileName="TC.BusinessLogic/Concrete/TemperatureConvertService.cs" Line="52" Column="10" />
+      <File FileName="TC.APIService/Startup.cs" Line="1" Column="1" />
+      <File FileName="TC.Repository/Abstract/ITemperatureConversionRepository.cs" Line="9" Column="35" />
+      <File FileName="TC.Repository/Concrete/TemperatureConversionRepository.cs" Line="36" Column="23" />
+      <File FileName="TC.APIService/Controllers/TemperatureConverterController.cs" Line="48" Column="2" />
+      <File FileName="TC.BusinessLogic.UnitTests/Usings.cs" Line="1" Column="1" />
+      <File FileName="TC.BusinessLogic.UnitTests/UnitTest1.cs" Line="15" Column="2" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="TemperatureConverterApp" expanded="True" />
+          <Node name="TemperatureConverterApp" expanded="True">
+            <Node name="2. Business Layer" expanded="True">
+              <Node name="TC.BusinessLogic.UnitTests" expanded="True">
+                <Node name="Dependencies" expanded="True">
+                  <Node name="PackageDependencies" expanded="True" />
+                </Node>
+                <Node name="UnitTest1.cs" selected="True" />
+              </Node>
+            </Node>
+            <Node name="3. Entity Layer" expanded="True" />
+            <Node name="4. Data Tools" expanded="True" />
+          </Node>
         </State>
       </Pad>
       <Pad Id="MonoDevelop.Debugger.WatchPad">

@@ -14,6 +14,19 @@
     <PackageReference Include="NUnit3TestAdapter" Version="4.2.1" />
     <PackageReference Include="NUnit.Analyzers" Version="3.3.0" />
     <PackageReference Include="coverlet.collector" Version="3.1.2" />
+    <PackageReference Include="Moq" Version="4.18.2" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Remove="BusinessLogicTests\" />
+    <None Remove="Moq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="BusinessLogicTests\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\TC.BusinessLogic\TC.BusinessLogic.csproj" />
+    <ProjectReference Include="..\TC.DTOModels\TC.DTOModels.csproj" />
+    <ProjectReference Include="..\TC.Models\TC.Models.csproj" />
+  </ItemGroup>
 </Project>

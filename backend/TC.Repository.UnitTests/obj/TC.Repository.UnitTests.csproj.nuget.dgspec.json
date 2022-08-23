@@ -4,14 +4,140 @@
     "/Users/soni/Projects/TemperatureConverterApp/backend/TC.Repository.UnitTests/TC.Repository.UnitTests.csproj": {}
   },
   "projects": {
-    "/Users/soni/Projects/TemperatureConverterApp/backend/TC.Repository.UnitTests/TC.Repository.UnitTests.csproj": {
+    "/Users/soni/Projects/TemperatureConverterApp/backend/TC.DatabaseContext/TC.DatabaseContext.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/soni/Projects/TemperatureConverterApp/backend/TC.Repository.UnitTests/TC.Repository.UnitTests.csproj",
-        "projectName": "TC.Repository.UnitTests",
-        "projectPath": "/Users/soni/Projects/TemperatureConverterApp/backend/TC.Repository.UnitTests/TC.Repository.UnitTests.csproj",
+        "projectUniqueName": "/Users/soni/Projects/TemperatureConverterApp/backend/TC.DatabaseContext/TC.DatabaseContext.csproj",
+        "projectName": "TC.DbContect",
+        "projectPath": "/Users/soni/Projects/TemperatureConverterApp/backend/TC.DatabaseContext/TC.DatabaseContext.csproj",
         "packagesPath": "/Users/soni/.nuget/packages/",
-        "outputPath": "/Users/soni/Projects/TemperatureConverterApp/backend/TC.Repository.UnitTests/obj/",
+        "outputPath": "/Users/soni/Projects/TemperatureConverterApp/backend/TC.DatabaseContext/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/soni/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/soni/Projects/TemperatureConverterApp/backend/TC.Models/TC.Models.csproj": {
+                "projectPath": "/Users/soni/Projects/TemperatureConverterApp/backend/TC.Models/TC.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.8, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.400/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/soni/Projects/TemperatureConverterApp/backend/TC.DTOModels/TC.DTOModels.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/soni/Projects/TemperatureConverterApp/backend/TC.DTOModels/TC.DTOModels.csproj",
+        "projectName": "TC.DTOModels",
+        "projectPath": "/Users/soni/Projects/TemperatureConverterApp/backend/TC.DTOModels/TC.DTOModels.csproj",
+        "packagesPath": "/Users/soni/.nuget/packages/",
+        "outputPath": "/Users/soni/Projects/TemperatureConverterApp/backend/TC.DTOModels/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/soni/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/soni/Projects/TemperatureConverterApp/backend/TC.Models/TC.Models.csproj": {
+                "projectPath": "/Users/soni/Projects/TemperatureConverterApp/backend/TC.Models/TC.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.400/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/soni/Projects/TemperatureConverterApp/backend/TC.Models/TC.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/soni/Projects/TemperatureConverterApp/backend/TC.Models/TC.Models.csproj",
+        "projectName": "TC.Models",
+        "projectPath": "/Users/soni/Projects/TemperatureConverterApp/backend/TC.Models/TC.Models.csproj",
+        "packagesPath": "/Users/soni/.nuget/packages/",
+        "outputPath": "/Users/soni/Projects/TemperatureConverterApp/backend/TC.Models/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
@@ -40,6 +166,184 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.8, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.400/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/soni/Projects/TemperatureConverterApp/backend/TC.Repository.UnitTests/TC.Repository.UnitTests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/soni/Projects/TemperatureConverterApp/backend/TC.Repository.UnitTests/TC.Repository.UnitTests.csproj",
+        "projectName": "TC.Repository.UnitTests",
+        "projectPath": "/Users/soni/Projects/TemperatureConverterApp/backend/TC.Repository.UnitTests/TC.Repository.UnitTests.csproj",
+        "packagesPath": "/Users/soni/.nuget/packages/",
+        "outputPath": "/Users/soni/Projects/TemperatureConverterApp/backend/TC.Repository.UnitTests/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/soni/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/soni/Projects/TemperatureConverterApp/backend/TC.DatabaseContext/TC.DatabaseContext.csproj": {
+                "projectPath": "/Users/soni/Projects/TemperatureConverterApp/backend/TC.DatabaseContext/TC.DatabaseContext.csproj"
+              },
+              "/Users/soni/Projects/TemperatureConverterApp/backend/TC.Models/TC.Models.csproj": {
+                "projectPath": "/Users/soni/Projects/TemperatureConverterApp/backend/TC.Models/TC.Models.csproj"
+              },
+              "/Users/soni/Projects/TemperatureConverterApp/backend/TC.Repository/TC.Repository.csproj": {
+                "projectPath": "/Users/soni/Projects/TemperatureConverterApp/backend/TC.Repository/TC.Repository.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.8, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.1.0, )"
+            },
+            "MockQueryable.Moq": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.18.2, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.13.3, )"
+            },
+            "NUnit.Analyzers": {
+              "target": "Package",
+              "version": "[3.3.0, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[4.2.1, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.400/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/soni/Projects/TemperatureConverterApp/backend/TC.Repository/TC.Repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/soni/Projects/TemperatureConverterApp/backend/TC.Repository/TC.Repository.csproj",
+        "projectName": "TC.Repository",
+        "projectPath": "/Users/soni/Projects/TemperatureConverterApp/backend/TC.Repository/TC.Repository.csproj",
+        "packagesPath": "/Users/soni/.nuget/packages/",
+        "outputPath": "/Users/soni/Projects/TemperatureConverterApp/backend/TC.Repository/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/soni/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/soni/Projects/TemperatureConverterApp/backend/TC.DatabaseContext/TC.DatabaseContext.csproj": {
+                "projectPath": "/Users/soni/Projects/TemperatureConverterApp/backend/TC.DatabaseContext/TC.DatabaseContext.csproj"
+              },
+              "/Users/soni/Projects/TemperatureConverterApp/backend/TC.DTOModels/TC.DTOModels.csproj": {
+                "projectPath": "/Users/soni/Projects/TemperatureConverterApp/backend/TC.DTOModels/TC.DTOModels.csproj"
+              },
+              "/Users/soni/Projects/TemperatureConverterApp/backend/TC.Models/TC.Models.csproj": {
+                "projectPath": "/Users/soni/Projects/TemperatureConverterApp/backend/TC.Models/TC.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.8, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

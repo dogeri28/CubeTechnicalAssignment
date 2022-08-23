@@ -29,7 +29,7 @@ namespace TC.BusinessLogic.Concrete
             _temperatureConversionRepository = temperatureConversionRepository ?? throw new ArgumentNullException(nameof(temperatureConversionRepository));
         }
 
-        public TemperatureConvertResponse HandleTemperatureConversion(TemperatureConvertRequest request)
+        public async Task<TemperatureConvertResponse> HandleTemperatureConversion(TemperatureConvertRequest request)
         {
             TemperatureConvertResponse response; 
             switch (request.TemperatureTypeFrom)
@@ -47,7 +47,7 @@ namespace TC.BusinessLogic.Concrete
                        throw new ArgumentException("invalid temperature type supplied");
             }
 
-          var result =  _temperatureConversionRepository.SaveTemperatureConversion(response);
+          var result = await _temperatureConversionRepository.SaveTemperatureConversion(response);
           return MapResponse(result);
         }
 

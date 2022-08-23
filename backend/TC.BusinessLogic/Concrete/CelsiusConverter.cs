@@ -24,7 +24,7 @@ namespace TC.BusinessLogic.Concrete
         private TemperatureConvertResponse ConvertToFarenheit(TemperatureConvertRequest request)
         {
             var celsius = request.TemperatureValueFrom ?? -1;
-            var fahrenheit = (celsius * 9) / 5 + 32;
+            var fahrenheit = (decimal)( (celsius * 9) / 5 + 32);
 
             return new TemperatureConvertResponse()
             {

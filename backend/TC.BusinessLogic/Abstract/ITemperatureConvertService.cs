@@ -5,7 +5,7 @@ namespace TC.BusinessLogic.Abstract
 {
     public interface ITemperatureConvertService
     {
-        TemperatureConvertResponse HandleTemperatureConversion(TemperatureConvertRequest request);
+       Task<TemperatureConvertResponse> HandleTemperatureConversion(TemperatureConvertRequest request);
     }
 }
 

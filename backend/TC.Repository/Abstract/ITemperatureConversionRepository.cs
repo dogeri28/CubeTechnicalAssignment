@@ -6,7 +6,7 @@ namespace TC.Repository.Abstract
 {
     public interface ITemperatureConversionRepository
     {
-        TemperatureConversion SaveTemperatureConversion(TemperatureConvertResponse response);
+       Task<TemperatureConversion> SaveTemperatureConversion(TemperatureConvertResponse response);
     }
 }
 
