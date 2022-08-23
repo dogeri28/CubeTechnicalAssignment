@@ -42,9 +42,6 @@ namespace DbInstaller.Migrations
                     b.Property<decimal?>("TemperatureValueTo")
                         .HasColumnType("numeric");
 
-                    b.Property<DateTime>("TimeStamp")
-                        .HasColumnType("timestamp with time zone");
-
                     b.HasKey("Id");
 
                     b.ToTable("TemperatureConversions");

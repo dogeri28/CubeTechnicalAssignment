@@ -42,7 +42,8 @@ namespace TemperatureConverterApp.Controllers
         [ProducesResponseType(StatusCodes.Status404NotFound)]
         public async Task<TemperatureConvertResponse> ConvertTemperature([FromBody] TemperatureConvertRequest request)
         {
-            return await _temperatureConvertService.HandleTemperatureConversion(request);
+           var response = await _temperatureConvertService.HandleTemperatureConversion(request);
+            return response;
         }
     }
 }

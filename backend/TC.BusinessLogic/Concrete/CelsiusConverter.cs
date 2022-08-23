@@ -29,7 +29,9 @@ namespace TC.BusinessLogic.Concrete
             return new TemperatureConvertResponse()
             {
                 TemperatureValueFrom = celsius,
-                TemperatureValueTo = fahrenheit
+                TemperatureValueTo = fahrenheit,
+                TemperatureTypeFrom = (int)request.TemperatureTypeFrom,
+                TemperatureTypeTo = (int)request.TemperatureTypeTo
             };
         }
 
@@ -41,7 +43,9 @@ namespace TC.BusinessLogic.Concrete
             return new TemperatureConvertResponse()
             {
                 TemperatureValueFrom = celsius,
-                TemperatureValueTo = kevin
+                TemperatureValueTo = kevin,
+                TemperatureTypeFrom = (int)request.TemperatureTypeFrom,
+                TemperatureTypeTo = (int)request.TemperatureTypeTo
             };
         }     
     }

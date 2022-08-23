@@ -9,9 +9,9 @@ namespace TC.DTOModels
 
         public decimal TemperatureValueTo { get; set; }
 
-        public TemperatureType TemperatureTypeFrom { get; set; }
+        public int TemperatureTypeFrom { get; set; }
 
-        public TemperatureType TemperatureTypeTo { get; set; }
+        public int TemperatureTypeTo { get; set; }
     }
 }
 

@@ -45,6 +45,7 @@ namespace TemperatureConverterApp
             // Database Configuration
             var connection = Configuration["connectionStrings:dbConnection"];
             services.AddDbContext<TemperatureConverterDbContext>(opt => opt.UseNpgsql(connection));
+            AppContext.SetSwitch("Npgsql.EnableLegacyTimestampBehavior", true);
 
             // Swagger
             services.AddSwaggerGen(setupAction =>
@@ -64,6 +65,10 @@ namespace TemperatureConverterApp
         {
             if (env.IsDevelopment())
             {
+                app.UseCors(options => options.SetIsOriginAllowed(x => x.Contains("http"))
+                   .AllowAnyMethod()
+                   .AllowAnyHeader()
+                   .AllowCredentials());
                 app.UseDeveloperExceptionPage();
                 app.UseSwagger();
                 app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "Temperature Converter API v1"));

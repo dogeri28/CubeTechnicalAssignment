@@ -3,7 +3,7 @@ using TC.DatabaseContext;
 using TC.DTOModels;
 using TC.Models;
 using TC.Repository.Abstract;
-
+using TC.Repository.Helpers;
 
 namespace TC.Repository.Concrete
 {
@@ -30,8 +30,8 @@ namespace TC.Repository.Concrete
         {
             var entity = new TemperatureConversion()
             {
-                TemperatureTypeFrom = response.TemperatureTypeFrom,
-                TemperatureTypeTo = response.TemperatureTypeTo,
+                TemperatureTypeFrom = (TemperatureType) response.TemperatureTypeFrom,
+                TemperatureTypeTo = (TemperatureType) response.TemperatureTypeTo,
                 TemperatureValueFrom = response.TemperatureValueFrom,
                 TemperatureValueTo = response.TemperatureValueTo
             };
@@ -42,5 +42,7 @@ namespace TC.Repository.Concrete
             return entity;
         }
     }
+ 
+
 }
 

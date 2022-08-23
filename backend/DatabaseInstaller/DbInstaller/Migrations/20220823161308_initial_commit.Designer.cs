@@ -12,7 +12,7 @@ using TC.DatabaseContext;
 namespace DbInstaller.Migrations
 {
     [DbContext(typeof(TemperatureConverterDbContext))]
-    [Migration("20220822143809_initial_commit")]
+    [Migration("20220823161308_initial_commit")]
     partial class initial_commit
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -43,9 +43,6 @@ namespace DbInstaller.Migrations
 
                     b.Property<decimal?>("TemperatureValueTo")
                         .HasColumnType("numeric");
-
-                    b.Property<DateTime>("TimeStamp")
-                        .HasColumnType("timestamp with time zone");
 
                     b.HasKey("Id");
 

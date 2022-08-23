@@ -10,10 +10,12 @@
     <None Remove="Abstract\" />
     <None Remove="Concrete\" />
     <None Remove="Microsoft.EntityFrameworkCore" />
+    <None Remove="Helpers\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Abstract\" />
     <Folder Include="Concrete\" />
+    <Folder Include="Helpers\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\TC.DatabaseContext\TC.DatabaseContext.csproj" />

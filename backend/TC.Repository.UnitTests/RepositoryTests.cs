@@ -33,8 +33,8 @@ public class RepositoryTests
 
         var entity = new TemperatureConvertResponse()
         {
-            TemperatureTypeFrom = TemperatureType.Celsius,
-            TemperatureTypeTo = TemperatureType.Fahrenheit,
+            TemperatureTypeFrom = (int) TemperatureType.Celsius,
+            TemperatureTypeTo = (int)TemperatureType.Fahrenheit,
             TemperatureValueFrom = 24.0M,
             TemperatureValueTo = 75.2M
         };
@@ -49,8 +49,8 @@ public class RepositoryTests
 
         _mockDbContext.Verify(x => x.TemperatureConversions.Add(
                        It.Is<TemperatureConversion>
-                       (arg => arg.TemperatureTypeFrom == entity.TemperatureTypeFrom &&
-                               arg.TemperatureTypeTo == entity.TemperatureTypeTo &&
+                       (arg => arg.TemperatureTypeFrom == (TemperatureType) entity.TemperatureTypeFrom &&
+                               arg.TemperatureTypeTo == (TemperatureType)entity.TemperatureTypeTo &&
                                arg.TemperatureValueFrom == entity.TemperatureValueFrom &&
                                arg.TemperatureValueTo == entity.TemperatureValueTo)));
     }

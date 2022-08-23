@@ -18,6 +18,5 @@ public class TemperatureConversion
     public TemperatureType TemperatureTypeFrom { get; set; }
 
     public TemperatureType TemperatureTypeTo { get; set; }
-
-    public DateTime TimeStamp { get; set; }
 }
+

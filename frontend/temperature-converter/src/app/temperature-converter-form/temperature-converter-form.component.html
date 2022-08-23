@@ -1,17 +1,17 @@
 
-<form #form="ngForm">
+<form #form="ngForm" (ngSubmit)="onSubmit(form)">
 <br/>
 <div class="container">
 <div class="row">
     <div class="col-5">
     <div class="bg-light border mt-6">
-        <p>Conver From <input type="number"  class="form-control" placeholder="" aria-label="from-type"></p>
-        <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
-            <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off" >
-            <label class="btn btn-outline-primary" for="btnradio1">Celsius</label>
-            <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off">
+        <p>Conver From <input type="number" name="temperatureValueFrom"  class="form-control" placeholder="" aria-label="from-type" value="0" [(ngModel)]="temperatureConversion.temperatureValueFrom"></p>
+        <div class="btn-group" role="group" aria-label="Basic radio toggle button group" >
+            <input type="radio" class="btn-check" name="temperatureTypeFrom" id="btnradio1" value="1" autocomplete="off"  [checked]="1" [(ngModel)]="temperatureConversion.temperatureTypeFrom"/>
+            <label class="btn btn-outline-primary" for="btnradio1" >Celsius</label>
+            <input type="radio" class="btn-check" name="temperatureTypeFrom" value="2" id="btnradio2" autocomplete="off"  [checked]="2" [(ngModel)]="temperatureConversion.temperatureTypeFrom"/>
             <label class="btn btn-outline-primary" for="btnradio2">Fahrenheit</label>
-            <input type="radio" class="btn-check" name="btnradio" id="btnradio3" autocomplete="off">
+            <input type="radio" class="btn-check" name="temperatureTypeFrom" value="3" id="btnradio3" autocomplete="off"  [checked]="3" [(ngModel)]="temperatureConversion.temperatureTypeFrom"/>
             <label class="btn btn-outline-primary" for="btnradio3">Kelvin</label>
         </div>
     </div>
@@ -22,15 +22,15 @@
  
     <div class="col-5">
         <div class="bg-light border">
-        <p>Convert To <input type="text" disabled  class="form-control" placeholder="" aria-label="to-type"></p>
+        <p>Converted To <input type="text" name="temperatureValueTo" disabled   class="form-control" placeholder="" aria-label="to-type" value="0" [(ngModel)]="temperatureConversion.temperatureValueTo"></p>
         <div class="btn-group" name="toValue" role="group" aria-label="Basic radio toggle button group">
-            <input type="radio" class="btn-check" name="btnradio-2" value="celsius" id="btnradio-1" autocomplete="off"  ngModel>
+            <input type="radio" class="btn-check" name="temperatureTypeTo" value="1" id="btnradio-1" autocomplete="off" [(ngModel)]="temperatureConversion.temperatureTypeTo"/>
             <label class="btn btn-outline-primary" for="btnradio-1">Celsius</label>
         
-            <input type="radio" class="btn-check" name="btnradio-2" value="fahrenheit" id="btnradio-2" autocomplete="off" ngModel>
+            <input type="radio" class="btn-check" name="temperatureTypeTo" value="2" id="btnradio-2" autocomplete="off" [(ngModel)]="temperatureConversion.temperatureTypeTo"/>
             <label class="btn btn-outline-primary" for="btnradio-2">Fahrenheit</label>
         
-            <input type="radio" class="btn-check" name="btnradio-2" value="kelvin" id="btnradio-3" autocomplete="off" ngModel>
+            <input type="radio" class="btn-check" name="temperatureTypeTo" value="3" id="btnradio-3" autocomplete="off" [(ngModel)]="temperatureConversion.temperatureTypeTo"/>
             <label class="btn btn-outline-primary" for="btnradio-3">Kelvin</label>
         </div>
         </div>
@@ -39,5 +39,5 @@
 </div>
 </form>
 
-{{form.value | json}}
+<!-- {{temperatureConversion| json}} -->
  

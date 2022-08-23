@@ -55,8 +55,8 @@ namespace TC.BusinessLogic.Concrete
         {
             return new TemperatureConvertResponse()
             {
-                 TemperatureTypeFrom = temperatureConversion.TemperatureTypeFrom,
-                 TemperatureTypeTo = temperatureConversion.TemperatureTypeTo,
+                 TemperatureTypeFrom =(int) temperatureConversion.TemperatureTypeFrom,
+                 TemperatureTypeTo = (int) temperatureConversion.TemperatureTypeTo,
                  TemperatureValueFrom = temperatureConversion.TemperatureValueFrom ?? -1,
                  TemperatureValueTo = temperatureConversion.TemperatureValueTo ?? -1
             };
