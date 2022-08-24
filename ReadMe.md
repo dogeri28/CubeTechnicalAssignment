@@ -12,7 +12,9 @@
 
   1. Need to install or have an instance of PostgreSQL running. Below are useful links on getting PostgreSQL
      installed for Windows/Mac:
+
      https://www.postgresqltutorial.com/postgresql-getting-started/install-postgresql-macos/
+
      https://www.guru99.com/download-install-postgresql.html
 
   Please make sure PostgreSQL is running.
