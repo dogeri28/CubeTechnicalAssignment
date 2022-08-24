@@ -44,7 +44,7 @@
       to match your IP needs. Please make a note of the path as it will be needed when configuring the Angular App in the next
       section.
 
-  ### Configuring the Front End
+  ## Configuring the Front End
 
   1.  open the front end folder and replace the api endpoint string on **line 16**.
       **temperature-converter/src/app/data/data.service.ts**
