@@ -7,6 +7,7 @@ using TC.DTOModels;
 
 namespace TC.BusinessLogic.UnitTests.BusinessLogicTests
 {
+    [TestFixture]
     public class CelsiusConverterTests : BaseTest
     {
         

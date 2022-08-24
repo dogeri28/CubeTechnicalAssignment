@@ -29,6 +29,7 @@
     "TC.APIService": {
       "commandName": "Project",
       "launchBrowser": true,
+      "launchUrl": "swagger",
       "applicationUrl": "http://localhost:36994",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
