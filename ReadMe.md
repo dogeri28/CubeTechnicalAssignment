@@ -52,4 +52,4 @@
     - 2. Use of Data Mapping libraies for the DTOs e.g AutoMapper
     - 3. Including client side testing of the Angular app
     - 4. Removal of hardcoded connection string in the DbInstaller tool
-    - 5. Removeal of hardcoded api string in the Angular app
+    - 5. Removal of hardcoded api string in the Angular app
