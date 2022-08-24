@@ -1,8 +1,8 @@
 # Installation Instructions Of Cube Technical Assignment
 
 - There are 2 folders contained in the root folder.
-  • frontend
-  • backend
+  - frontend
+  - backend
 - The front end is an Angular application, while the backend contains a .Net Core 6 application using
   Entity Framework Core as its ORM and PostgreSQL as its database provider.
 
@@ -23,13 +23,16 @@
      the PostgreSQL Server and give it a database name of your choice as we are doing Code First, so it will be created.
      Navigate to the (4. Data Tools) folder of the solution and copy the same connection string details and set the variable
      "dbConnString"
+
   4. Open a Command Prompt / Terminal on your computer
 
   5. Use termnal and change directory to ~/DbInstaller, this should be within the Data Tools folder of the solution.
      Using Entity Framework Code First Migrations ( assumes you have the EF Migration tools installed) in the
      Command Prompt-
-     On Windows (Powershell) run: **Update-Database**
-     On Mac run: **dotnet ef database update**
+
+     - On Windows (Powershell) run: **Update-Database**
+
+     - On Mac run: **dotnet ef database update**
 
   6. A database matching the name of what was specified in the connection strings will be generated.
 
@@ -42,3 +45,11 @@
 
   1.  open the front end folder and replace the api endpoint string on **line 16**.
       **temperature-converter/src/app/data/data.service.ts**
+
+## Future Code Improvements
+
+    - 1. Use of error logging
+    - 2. Use of Data Mapping libraies for the DTOs e.g AutoMapper
+    - 3. Including client side testing of the Angular app
+    - 4. Removal of hardcoded connection string in the DbInstaller tool
+    - 5. Removeal of hardcoded api string in the Angular app
