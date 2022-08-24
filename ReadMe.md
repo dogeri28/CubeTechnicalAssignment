@@ -1,4 +1,4 @@
-# Installation Instructions of the Cube Technical Assignment.
+# Installation Instructions of Cube's Technical Assignment.
 
 - There are 2 folders contained in the root folder.
   - frontend
